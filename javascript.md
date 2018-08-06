@@ -15,6 +15,7 @@
 - [for...in](#forin)
 - [for...of](#forof)
 - [function](#function)
+- [get](#get)
 - [if](#if)
 - [if...else](#ifelse)
 - [if...else if](#ifelse-if)
@@ -240,6 +241,17 @@ function myFunc(param) {
 ##### See also
 [arrow functions](#arrow-function)
 
+
+# get
+
+```javascript
+get myDynamicProperty(){
+	return dynamicProperty;
+}
+```
+
+### Learn on Treehouse
+[Object-Oriented JavaScript - Getters](https://teamtreehouse.com/library/getters)
 
 
 # if
