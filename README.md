@@ -10,17 +10,16 @@ Glossaries currently available:
 
 ### Glossary Entry Template
 
-The glossaries are written in markdown. The basic format is as follows:
+The glossaries are written in markdown. The basic format for each entry is as follows:
+
 
 ```markdown
 # Listing Title
 
 1 to 3 code samples demonstrating the concept with descriptive and educational variable names.
 
-
 ### Learn on Treehouse
 [Course Title - Video Title](https://teamtreehouse.com/library/course-title)
-
 
 ### Practice on Treehouse
 [Practice Session Title](https://teamtreehouse.com/library/practice-session-title)
@@ -34,7 +33,7 @@ The glossaries are written in markdown. The basic format is as follows:
 
 ### Code Sample Examples 
 
-####Function
+#### Example: Function
 
 ```javascript
 function myFunction(parameter) {
@@ -42,7 +41,7 @@ function myFunction(parameter) {
 }
 ```
 
-####Array
+#### Example: Array
 
 ```javascript
 var myArray = [element1, element2, element3];
@@ -52,10 +51,24 @@ var myArray = [element1, element2, element3];
 var myArray = new Array();
 ```
 
-#### For loop
+#### Example: For loop
 
 ```javascript
 for (let i = 0; i <= 10; i++){
     console.log(i);
 }
+```
+
+#### Example: Ternary Operator & Statement
+
+```javascript
+<condition> ? <code if true> : <code if false>;
+```
+
+```javascript
+x == y ? console.log('true') : console.log('false');
+```
+
+```javascript
+var val = x == y ? true : false;
 ```
