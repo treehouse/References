@@ -1,6 +1,8 @@
 ## Syntax Glossaries
 
-This references directory will provide a basic syntax glossary for each language taught at Treehouse. They are not designed to be a tutorial or to be instrunctional in anyway - the goal is to simply offer a quick and easy syntax reference with descriptive variable names for students to use during their coursework. Each entry in the glossary will link back to the coursework where the concept is taught and to any related practice sessions. Any related entries will also be linked.
+This references directory will provide a basic syntax glossary for each language taught at Treehouse. They aren't meant to be a tutorial or to offer instruction - the goal is a quick and easy syntax reference featuring descriptive variable names for students to use during their coursework. Glossaries or specific entries in glossaries should be linked to from teacher's notes and instruction steps in places where new syntax or concepts are taught.
+
+Each entry in the glossary will link back to the specific video where the concept is taught and also to any related practice sessions. Any related entries should also be linked under the "See also" section.
 
 Glossaries currently available:
 
@@ -8,15 +10,14 @@ Glossaries currently available:
 
 
 
-### Glossary Entry Template
+## Glossary Entry Template
 
-The glossaries are written in markdown. The basic format for each entry is as follows:
+The glossaries are written in markdown, with each language glossary in its own .md file. Glossary entries should be alphabetical with an alphabetical table of contents at the top of the file. The basic format for each entry is as follows:
 
 
 ```markdown
-# Listing Title
-
-1 to 3 code samples demonstrating the concept with descriptive and educational variable names.
+# Entry Title/Concept
+1 to 3 [code samples](#code-sample-examples) demonstrating the concept with descriptive and educational variable names.
 
 ### Learn on Treehouse
 [Course Title - Video Title](https://teamtreehouse.com/library/course-title)
@@ -31,7 +32,7 @@ The glossaries are written in markdown. The basic format for each entry is as fo
 ```
 
 
-### Code Sample Examples 
+## Code Sample Examples 
 
 #### Example: Function
 
