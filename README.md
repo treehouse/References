@@ -1,18 +1,49 @@
 ## Syntax Glossaries
 
-This references directory will provide a basic syntax glossary for each language taught at Treehouse. They are not designed to be a tutorial or to be instrunctional in anyway - the goal is to simply offer a quick and easy syntax reference with descriptive variable names for students to use during their coursework. Each listing in the glossary will link back to the coursework where the concept is taught and to any related practice sessions. Related listing will also be linked from each listing.
+This references directory will provide a basic syntax glossary for each language taught at Treehouse. They are not designed to be a tutorial or to be instrunctional in anyway - the goal is to simply offer a quick and easy syntax reference with descriptive variable names for students to use during their coursework. Each entry in the glossary will link back to the coursework where the concept is taught and to any related practice sessions. Any related entries will also be linked.
 
 Glossaries currently available:
 
 - [Javascript](https://github.com/treehouse/References/blob/master/javascript.md)
 
 
-### Listing Format
+
+### Glossary Entry Template
 
 The glossaries are written in markdown. The basic format is as follows:
 
 ```markdown
-# array
+# Listing Title
+
+1 to 3 code samples demonstrating the concept with descriptive and educational variable names.
+
+
+### Learn on Treehouse
+[Course Title - Video Title](https://teamtreehouse.com/library/course-title)
+
+
+### Practice on Treehouse
+[Practice Session Title](https://teamtreehouse.com/library/practice-session-title)
+
+##### See also
+[related listing title](#related-listing-link)\
+[related listing title](#related-listing-link)
+
+```
+
+
+### Code Sample Examples 
+
+####Function
+
+```javascript
+function myFunction(parameter) {
+    console.log(parameter);
+}
+```
+
+####Array
+
 ```javascript
 var myArray = [element1, element2, element3];
 ```
@@ -21,11 +52,10 @@ var myArray = [element1, element2, element3];
 var myArray = new Array();
 ```
 
-### Learn on Treehouse
-[JavaScript Loops, Arrays, and Objects - What is an Array?](https://teamtreehouse.com/library/what-is-an-array)
+#### For loop
 
-
-### Practice on Treehouse
-[Practice Basic Arrays in JavaScript](https://teamtreehouse.com/library/practice-basic-arrays-in-javascript-2)
+```javascript
+for (let i = 0; i <= 10; i++){
+    console.log(i);
+}
 ```
-
