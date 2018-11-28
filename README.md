@@ -12,7 +12,7 @@ Glossaries currently available:
 
 ## Glossary Entry Template
 
-The glossaries are written in markdown, with each language glossary in its own .md file. Glossary entries should be alphabetical with an alphabetical table of contents at the top of the file. See here for [examples of the code](#code-sample-examples) include in glossary entries. The basic format for each entry is as follows:
+The glossaries are written in markdown, with each language glossary in its own .md file. Glossary entries should be alphabetical with an alphabetical table of contents at the top of the file. See here for [examples of the type of code](#code-sample-examples) to include in glossary entries. The basic format for each entry is as follows:
 
 
 ```markdown
