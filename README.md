@@ -12,12 +12,12 @@ Glossaries currently available:
 
 ## Glossary Entry Template
 
-The glossaries are written in markdown, with each language glossary in its own .md file. Glossary entries should be alphabetical with an alphabetical table of contents at the top of the file. The basic format for each entry is as follows:
+The glossaries are written in markdown, with each language glossary in its own .md file. Glossary entries should be alphabetical with an alphabetical table of contents at the top of the file. See here for [examples of the code](#code-sample-examples) include in glossary entries. The basic format for each entry is as follows:
 
 
 ```markdown
 # Entry Title/Concept
-1 to 3 [code samples](#code-sample-examples) demonstrating the concept with descriptive and educational variable names.
+1 to 3 code samples demonstrating the concept with descriptive and educational variable names.
 
 ### Learn on Treehouse
 [Course Title - Video Title](https://teamtreehouse.com/library/course-title)
