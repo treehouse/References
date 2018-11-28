@@ -17,7 +17,7 @@ The glossaries are written in markdown, with each language glossary in its own .
 
 ```markdown
 # Entry Title/Concept
-1 to 3 [code samples](#code-sample-examples) demonstrating the concept with descriptive and educational variable names.
+1 to 3 `[code samples](#code-sample-examples)` demonstrating the concept with descriptive and educational variable names.
 
 ### Learn on Treehouse
 [Course Title - Video Title](https://teamtreehouse.com/library/course-title)
